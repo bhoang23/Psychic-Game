@@ -13,6 +13,7 @@
   	guesses = 9;
   	guessesChosen = [];
   	computerRandom = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+    
   }
 
   var computerRandom = computerChoices[Math.floor(Math.random() * computerChoices.length)];
@@ -34,6 +35,7 @@ var slice2 = computerChoices.slice(14,26);
    		resetGame();
    		console.log(guessesChosen);
    		console.log(guesses);
+      console.log(computerRandom);
    	}
 
    	else if ((myGuess != computerRandom) && (guesses > 1)){
@@ -51,6 +53,7 @@ var slice2 = computerChoices.slice(14,26);
    		resetGame();
    		console.log(guessesChosen);
    		console.log(guesses);
+      console.log(computerRandom);
 
       	}
 
